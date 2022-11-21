@@ -4,7 +4,7 @@ const port = 3000;
 
 app.get("/", (req, res) => {
   console.log("Get request is called");
-  res.send("Hello World (edited directly from github).");
+  res.send("Hello World (edited directly from github). again for pipeline test.");
 });
 
 app.listen(port, () => {
